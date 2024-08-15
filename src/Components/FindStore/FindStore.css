@@ -1,0 +1,118 @@
+.find-second {
+    display: flex;
+}
+.container-left {
+    width: 36%;
+}
+.map {
+    height: 90%;
+    width: 64%;
+    position: absolute;
+}
+.search-input input {
+   outline: none;
+   border: none;
+   border-bottom: 1px solid black;
+   font-size:  17px;
+   padding-bottom: 3px;
+   font-weight: 500;
+   width: 400px;
+   margin-left: 30px;
+   margin-top: 90px;
+}
+.search-input {
+    align-items: center;
+}
+.find-button {
+   margin-left: 10px; 
+}
+.search-input button {
+    border: 1px solid #00754A;
+    max-width: max-content;
+    padding: 5px 15px 5px 15px;
+    border-radius: 40px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s ease-in;
+    font-size: max(1vw,10px);
+    background: transparent;
+    color: #00754A;
+}
+.find-button:hover {
+    background-color: #00754a32;;
+}
+.text-text {
+    font-size: 12px;
+    padding-top: 10px;
+}
+.second-find-button {
+    background: #00754A;
+    max-width: max-content;
+    border: none;
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 40px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: max(1vw,10px);
+    color: #fff; 
+}
+.find-text {
+    margin-top: 30px;
+    padding-left: 30px;
+    padding: 30px 30px 30px;
+    transition: 0.2s ease-in-out;
+}
+.find-text:hover {
+    background-color: rgba(197, 197, 197, 0.295);
+    width: 100%;
+}
+.one {
+    color: #00754A;
+    margin-left: 20px;
+    padding: 10px;
+}
+.privaty-police {
+    flex-direction: column;
+    display: flex;
+    margin-top: 100px;
+}
+
+@media (max-width: 1247px) {
+    .search-input input {
+        width: 300px;
+    }
+}
+@media (max-width:1147px) {
+    .find-second {
+        flex-direction: column;
+        display: flex;
+    }
+    .map {
+        width: 100%;
+    }
+    .container-left {
+        width: 100%;
+    }
+}
+@media (max-width:578px) {
+    .privaty-police {
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:480px) {
+    .search-input input {
+        width: 240px;
+    }
+    .search-input {
+        margin-left: -7px;
+    }
+    .find-text {
+        margin-left: -7px;
+    }
+    .privaty-police {
+        margin-left: -7px;
+    }
+}

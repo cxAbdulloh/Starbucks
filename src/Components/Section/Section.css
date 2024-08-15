@@ -1,0 +1,278 @@
+.container {
+    margin: 0 25px;
+}
+.one-product img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+.second-product img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+.three-product img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+.four-product img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+.five-product img {
+    max-width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+.one-product {
+    display: flex;
+    background-color: #1e3932;
+}
+.second-product {
+    display: flex;
+    background-color: #f2f0eb;
+}
+.three-product {
+    background-color: #f06464;
+    display: flex;
+}
+.four-product {
+    display: flex;
+    background-color: #97d8b1;
+}
+.five-product {
+    display: flex;
+    background-color: #d6e342;
+    flex-direction: row-reverse;
+}
+.product-left,
+.product-right {
+    max-width: 50%;
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    align-content: center;
+    flex-direction: column;
+}
+.one-product-title {
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 30px;
+    font-size: max(1.5vw,20px);
+}
+.second-product-title {
+    font-size: max(1.5vw,20px);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+    color: #1e3932;
+}
+.three-product-title {
+    font-size: max(2vw,20px);
+    text-align: center;
+    font-weight: 700;
+    color: #1e3932;
+    margin-top: 30px;
+}
+.four-product-title {
+    font-size: max(1.7vw,20px);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+    color: #1e3932;
+}
+.five-product-title {
+    font-size: max(2vw,20px);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+    color: #1e3932;
+}
+.product-container {
+    margin: 40px 0px 0px 0px;
+    display: flex;
+}
+.one-product-button {
+    border: 1px solid white;
+    max-width: max-content;
+    color: #fff;
+    padding: 5px 20px 5px 20px;
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    font-size: max(1vw,10px);
+    font-weight: 500;
+}
+.one-product-button:hover {
+    background-color: rgba(155, 154, 154, 0.144);
+}
+.second-product-button {
+    border: 1px solid rgb(0, 0, 0);
+    max-width: max-content;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    font-size: max(1vw,10px);
+    font-weight: 600;
+}
+.second-product-button:hover {
+    background-color: rgba(155, 154, 154, 0.144);
+}
+.three-product-button {
+    border: 1px solid #1e3932;
+    max-width: max-content;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    font-size: max(1vw,10px);
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    font-weight: 600;
+}
+.three-product-button:hover {
+    background-color: rgba(155, 154, 154, 0.144);
+}
+.four-product-button {
+    border: 1px solid #1e3932;
+    max-width: max-content;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s ease-in;
+    font-size: max(1vw,10px);
+}
+.four-product-button:hover {
+    background-color: rgba(155, 154, 154, 0.144);
+}
+.five-product-button {
+    border: 1px solid #1e3932;
+    max-width: max-content;
+    padding: 5px 20px 5px 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s ease-in;
+    font-size: max(1vw,10px);
+}
+.five-product-button:hover {
+    background-color: rgba(155, 154, 154, 0.144);
+}
+.second-product-description {
+    text-align: center;
+    padding: 25px 30px 20px 30px;
+    font-size: 18px;
+    color: #1e3932; 
+    font-size: max(1vw,17px);
+    font-weight: 500;
+}
+.three-product-description {
+    text-align: center;
+    padding: 25px 30px 20px 30px;
+    font-size: 18px;
+    color: #fff; 
+    font-size: max(1vw,17px);
+    font-weight: 500;
+}
+.four-product-description {
+    text-align: center;
+    padding: 25px 30px 20px 30px;
+    font-size: 18px;
+    color: #1e3932; 
+    font-size: max(1vw,17px);
+    font-weight: 500;
+}
+.five-product-description {
+    text-align: center;
+    padding: 25px 30px 20px 30px;
+    font-size: 18px;
+    color: #1e3932; 
+    font-size: max(1vw,17px);
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .one-product, .one-product img {
+        max-width: 200%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    .second-product, .second-product img {
+        max-width: 200%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center; 
+    }    
+    .second-product-description {
+        display: none;
+    }
+    .three-product, .three-product img {
+        max-width: 200%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+    }
+    .three-product-description {
+        display: none;
+    }
+    .four-product, .four-product img {
+        max-width: 200%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .five-product, .five-product img {
+        max-width: 200%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .four-product-description {
+        display: none;
+    }
+    .five-product-description {
+        display: none;
+    }
+    }
+
+@media (max-width: 578px) {
+    .container {
+        margin: auto;
+    }
+    .one-product-title {
+        font-size: 16px;
+    }
+    .second-product-title {
+        font-size: 16px;
+    }
+    .three-product-title {
+        font-size: 16px;
+    }
+    .four-product-title {
+        font-size: 16px;
+    }
+    .five-product-title {
+        font-size: 16px;
+    }
+    }
